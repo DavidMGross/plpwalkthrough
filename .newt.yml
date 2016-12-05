@@ -1,7 +1,11 @@
 app-type: nodequark
 generator-run: true
+name: plpwalkthrough
 nodequark-opts:
   org: plpwalkthrough
   service: helloworld
+org: davidmgross
 path-to-project: .
+repo-url: https://github.com/davidmgross/plpwalkthrough.git
 spinnaker-app: nq_plpwalkthrough_helloworld
+team-email: davgross@netflix.com
