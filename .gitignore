@@ -1,0 +1,27 @@
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+/node_modules/
+npm-debug.log
+
+# build task results for ci
+/ci/
+
+#newt configuration file
+.newt.netflix_environment.sh
+
+#docker related
+Dockerfile.*
+
+#ignore the artifact from newt auto deploy
+build/
+
+#emacs
+*.*~

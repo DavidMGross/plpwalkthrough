@@ -1,0 +1,7 @@
+app-type: nodequark
+generator-run: true
+nodequark-opts:
+  org: plpwalkthrough
+  service: helloworld
+path-to-project: .
+spinnaker-app: nq_plpwalkthrough_helloworld

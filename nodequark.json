@@ -1,0 +1,20 @@
+{
+    "schemaVersion": 1,
+    "service": {
+        "org": "plpwalkthrough",
+        "name": "helloworld",
+        "version": "1.0.0"
+    },
+    "NQPlatformVersion": "*",
+    "routes": {
+        "helloworld": {
+            "get": {
+                "source": "./lib/index.js"
+            },
+            "post": {
+                "source": "./lib/index.js"
+            }
+        }
+    },
+    "sources" : [ "./lib" ]
+}
